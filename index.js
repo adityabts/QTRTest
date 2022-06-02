@@ -1,11 +1,7 @@
-import express from "express";
-import { createServer } from "http";
-import { Server } from "socket.io";
-import emitSocketData from "./newGen.js";
-
-import fs from "fs";
-
-var pathTrail = "./lastfecthedID.json";
+const express = require("express");
+const { createServer } = require("http");
+const { Server } = require("socket.io");
+const emitSocketData = require("./newGen.js");
 
 const app = express();
 

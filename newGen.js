@@ -308,4 +308,6 @@ let emitSocketData = () => {
   });
 };
 
-export default emitSocketData;
+module.exports = emitSocketData;
+
+// export default emitSocketData;
